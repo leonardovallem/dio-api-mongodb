@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/leonardovallem/Área de trabalho/Dev/Linguagens/c#/cursodio/ApiMongoDB/ApiMongoDB/ApiMongoDB.csproj": {}
+  },
+  "projects": {
+    "/home/leonardovallem/Área de trabalho/Dev/Linguagens/c#/cursodio/ApiMongoDB/ApiMongoDB/ApiMongoDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/leonardovallem/Área de trabalho/Dev/Linguagens/c#/cursodio/ApiMongoDB/ApiMongoDB/ApiMongoDB.csproj",
+        "projectName": "ApiMongoDB",
+        "projectPath": "/home/leonardovallem/Área de trabalho/Dev/Linguagens/c#/cursodio/ApiMongoDB/ApiMongoDB/ApiMongoDB.csproj",
+        "packagesPath": "/home/leonardovallem/.nuget/packages/",
+        "outputPath": "/home/leonardovallem/Área de trabalho/Dev/Linguagens/c#/cursodio/ApiMongoDB/ApiMongoDB/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/leonardovallem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.8, 3.1.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
